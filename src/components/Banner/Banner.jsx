@@ -3,7 +3,7 @@ import MiniCard from '../MiniCard/MiniCard'
 
 const Banner = () => {
   return (
-    <div className='mt-10 mb-5 relative'>
+    <div className='mt-10 mb-10 relative'>
         <div className='h-72 md:h-96 bg-custom-gradient flex flex-col gap-3 text-center md:gap-5 justify-center items-center font-bold text-2xl md:text-5xl text-white'>
             <span className='bg-transparent'>Elavate your skills, achieve your goals:</span> 
             <span className='bg-transparent'>Join our expert-led training program today</span> 

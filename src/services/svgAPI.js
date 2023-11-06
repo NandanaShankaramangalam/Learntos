@@ -17,7 +17,7 @@ export const svgs = [
     {
     icon : 'images/teacher-svgrepo-com.svg',
     number : '100',
-    title : 'Export mentors'
+    title : 'Expert mentors'
     },
     {
     icon : 'images/clock-circle-svgrepo-com.svg',

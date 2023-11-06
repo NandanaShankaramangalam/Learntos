@@ -8,11 +8,11 @@ const Navbar = () => {
     setMenuOpen(!menuOpen);
   };
   return (
-    <nav className="p-5 shadow shadow-gray-300 z-20 fixed top-0 w-screen md:flex md:items-center md:justify-between">
+    <nav className="bg-gray-50 p-5 shadow shadow-gray-300 z-20 fixed top-0 w-screen md:flex md:items-center md:justify-between">
     <div className="flex justify-between items-center">
       <span className="text-2xl text-custom-blue cursor-pointer">
-        {/* <img className="h-10 inline" src="https://tailwindcss.com/_next/static/media/social-square.b622e290e82093c36cca57092ffe494f.jpg" alt="Logo" /> */}
-        Learntos
+        <img className="h-16 inline" src="images/new_logo.png" alt="Logo" />
+        {/* Learntos */}
       </span>
 
       <span className="text-3xl cursor-pointer mx-2 md:hidden block" onClick={toggleMenu}>
