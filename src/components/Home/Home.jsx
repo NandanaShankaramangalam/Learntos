@@ -1,4 +1,6 @@
 import React from 'react'
+import Statistics from '../StatisticsCard/Statistics'
+import Banner from '../Banner/Banner'
 
 const Home = () => {
   return (
@@ -25,6 +27,8 @@ const Home = () => {
               <img src="images/image1.png" className='h-64 md:h-80' alt="" />
             </div>
         </div>
+        <Banner/>
+        <Statistics/>
     </div>
   )
 }
