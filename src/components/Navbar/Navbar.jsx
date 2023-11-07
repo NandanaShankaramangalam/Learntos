@@ -2,7 +2,7 @@ import {AiOutlineMenu} from 'react-icons/ai'
 import {AiOutlineClose} from 'react-icons/ai'
 import React, { useState } from 'react'
 
-const Navbar = () => {
+const Navbar = ({ handleSection}) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -37,7 +37,7 @@ const Navbar = () => {
           About us
         </a>
       </li>
-      <li className="mx-4 my-6 md:my-0">
+      <li className="mx-4 my-6 md:my-0" onClick={()=>handleSection("courseSection")}>
         <a href="#" className="text-md text-custom-blue hover:text-cyan-500 duration-500">
           Courses
         </a>
