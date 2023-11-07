@@ -11,8 +11,10 @@ const Home = () => {
   const courseSection = useRef(null);
   const handleSections = (section) =>{
     if (section=="courseSection") {
-      if(courseSection.current)
+      if(courseSection.current){
         courseSection.current.scrollIntoView({ behavior: 'smooth' });
+      }
+        
     }
   }
   return (
